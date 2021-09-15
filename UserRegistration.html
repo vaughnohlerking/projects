@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>The Student's Servlet project</title>
+ </head>
+ <body>
+  <img src="https://sportslogohistory.com/wp-content/uploads/2018/07/lsu_tigers_2002-2013_a.png" width="200" alt="LSU Logo">
+
+  <h1>About LSU Computer Science</h1>
+ 
+  <p>
+  Welcome to the <strong>Division of Computer Science and Engineering</strong> at LSU!</em>.
+  </p>
+
+  
+  <h2>Sign your information to the department!</h2>
+  <form action="http://18.223.136.191:8080/UserRegistrationProject/UserRegistrationServlet" method="post" enctype="multipart/form-data">
+    <label>Name: <input name="name" type="text"></label>
+    <br>
+    <label>Email: <input name="email" type="email"></label>
+    <br>
+    <label>Preferred place:
+      <select name="location">
+        <option value="Baton Rouge">Baton Rouge</option>
+        <option value="New Orleans">New Orleans</option>
+        <option value="New York">New York</option>
+        <option value="Fort Dodge">Fort Dodge</option>
+        <option value="Countryside">Countryside</option>
+      </select></label>
+    <br>
+    <fieldset>
+      <legend>Gender:</legend>
+      <label for="female">Female</label>
+      <input type="radio" name="gender" id="female" value="female">
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="male" value="male">
+      <label for="non-binary">Non-Binary</label>
+      <input type="radio" name="gender" id="non-binary" value="Non-Binary">
+      <label for="attack helicopter">Attack Helicopter</label>
+      <input type="radio" name="gender" id="attack helicopter" value="Attack Helicopter">
+      
+    </fieldset>
+    <br>
+    <label>Experience:
+    <br>
+    <textarea name="experience"></textarea> 
+    </label>
+    <br>
+    </br>
+    Upload Your Profile Picture:
+    <input type="file" name="file" id="file" /> <br/>
+    FileName:
+    <input type="text" value="myProPic.jpg" name="fileName" id="fileName"/>
+    </br>
+    <!--  <button type="submit">Sign Up</button> -->
+    <input type="submit" value="Upload" name="upload" id="upload" />
+  </form>
+  
+  
+  <br>
+  <br>
+  <a href="http://twitter.com/girldevelopit">Twitter</a> | <a href="http://www.facebook.com/girldevelopit">Facebook</a> | <a href="http://www.flickr.com/photos/40453677@N00/sets/72157626841092971/">Flickr</a>
+
+ </body>
+</html>
