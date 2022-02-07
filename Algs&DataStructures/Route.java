@@ -1,5 +1,9 @@
-//vohler1
-//11/21/2020
+/*
+this program takes in a list of flights and airports, and returns the flight schedule with the minimum time for each using
+dijkstra's algorithm, a heap, and a hash table
+vohler1
+11/21/2020
+*/
 package route;
 
 import java.io.File;
