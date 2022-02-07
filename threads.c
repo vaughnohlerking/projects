@@ -1,4 +1,6 @@
 /*
+This program multi-threaded multiplies two compatible matrices of any size.
+
 Name:       Ohlerking, Vaughn 
 Email:      vohler1@lsu.edu
 Project:    PA-1 (Multithreading)
