@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<title>testSignUpScreen</title>
+	<style>
+
+      {
+        padding-top: 100px;
+        align-items: flex-start;
+        background-color:
+      #c8fbff;
+        display: flex;
+        width: 1440px;
+      }
+
+      .overlap-group2 {
+        background-color: #c8fbff;
+        height: 1024px;
+        position: relative;
+        width: 1440px;
+      }
+
+      .rectangle-1 {
+        background-color:
+      #ffffff;
+        box-shadow: 0px 4px 25px
+      #ad6a6a40;
+        height: 139px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 1440px;
+      }
+
+      .unsplash-xt-ud5-si-x464 {
+        height: 886px;
+        left: 0;
+        position: absolute;
+        top: 138px;
+        width: 1440px;
+      }
+
+      .title {
+        height: 78px;
+        left: 629px;
+        letter-spacing: 0;
+        position: absolute;
+        text-align: center;
+        top: 273px;
+      }
+
+      .button-primitive-default {
+        font: sans-serif;
+        align-items: flex-start;
+        display: flex;
+        height: 105px;
+        left: 565px;
+        min-width: 309px;
+        position: absolute;
+        top: 826px;
+      }
+
+      .overlap-group {
+        border-radius: 8px;
+        height: 105px;
+        position: relative;
+        width: 309px;
+      }
+
+      .sign-up {
+        height: 78px;
+        left: 15px;
+        letter-spacing: 0;
+        position: absolute;
+        text-align: center;
+        top: 12px;
+      }
+
+      .sign-up-containter {
+        background-color: #c8fbff;
+        border-radius: 8px;
+        height: 105px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 309px;
+      }
+
+      .button-primitive-default-1 {
+        align-items: flex-start;
+        display: flex;
+        height: 105px;
+        left: 565px;
+        min-width: 309px;
+        position: absolute;
+        top: 674px;
+      }
+
+      .submit {
+        color: #00000085;
+        font-family: sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        background-color: #c8fbff;
+        border-radius: 8px;
+        height: 25px;
+        letter-spacing: 0;
+        position: absolute;
+        text-align: center;
+        left: 1080px;
+        top: 396px;
+        width: 70px;
+      }
+
+      .pass-containter {
+        background-color: var(--onahau-2);
+        border-radius: 8px;
+        height: 57px;
+        left: 810px;
+        position: absolute;
+        top: 377px;
+        width: 260px;
+      }
+
+      .email-container {
+        background-color: #c8fbff;
+        border-radius: 8px;
+        height: 57px;
+        left: 369px;
+        position: absolute;
+        top: 377px;
+        width: 260px;
+      }
+
+      .email {
+        background-color: #c8fbff85;
+        border-radius: 8px;
+        padding-left: 50px;
+        border: 0;
+        color:
+      #00000085;
+        font-family: sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        height: 25px;
+        left: 400px;
+        letter-spacing: 1px;
+        padding: 0;
+        position: absolute;
+        text-align: center;
+        top: 393px;
+        width: 200px;
+      }
+
+      .signUp {
+        border-radius: 8px;
+        border-color: white;
+        background-color:
+      #c8fbff;
+        border: 10;
+        color: #00000085;
+        font-family: sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        height: 25px;
+        top: 800px;
+        left: 650px;
+        letter-spacing: 2px;
+        padding: 0;
+        position: absolute;
+        text-align: center;
+
+        width: 150px;
+      }
+
+      .header {
+        background-color:
+      transparent;
+        border: 0;
+        color: #c8fbff;
+        font-family: sans-serif;
+        font-size: 50px;
+        font-weight: 400;
+        height: 165px;
+        left: 590px;
+        letter-spacing: 2px;
+        padding: 0;
+        position: absolute;
+        text-align: center;
+        top: 250px;
+        width: 250px;
+      }
+
+      .email::placeholder {
+        color:
+      #00000039;
+      }
+
+      .password {
+        background-color: #c8fbff85;
+        border-radius: 8px;
+        padding-left: 50px;
+        border: 0;
+        color: #00000065;
+        font-family: sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        height: 25px;
+        letter-spacing: 1px;
+        padding: 0;
+        position: absolute;
+        text-align: center;
+        left: 850px;
+        top: 396px;
+        width: 200px;
+      }
+
+      .frame-1 {
+        height: 100px;
+        left: 661px;
+        position: absolute;
+        top: 706px;
+        width: 150px;
+      }
+
+      @import url("https://fonts.googleapis.com/css?family=Roboto:400");
+
+      .screen a {
+        display: contents;
+        text-decoration: none;
+      }
+
+      .container-center-horizontal {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        pointer-events: none;
+        width: 100%;
+      }
+
+      .container-center-horizontal > * {
+        flex-shrink: 0;
+        pointer-events: auto;
+      }
+
+      .valign-text-middle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      input:focus {
+        outline: none;
+      }
+    </style>
+    </head>
+    <body style="background-color:grey;">
+
+<div class="container-center-horizontal">
+  <div class="desktop-1screen">
+    <div class="overlap-group2">
+      <div class="rectangle-1"></div>
+      <img
+        class="unsplash-xt-ud5-si-x464"
+        src="http://3.144.19.75/Pic/sighn.png"
+      />
+      <h1 class="header">Log in</h1>
+      <div>
+        <div>
+          <a class="signUp" href="http://3.144.19.75:80/SignUpScreen.html">Sighn Up</a>
+          <div class="sign-up-containterborder-5px-onahau"></div>
+        </div>
+      </div>
+      <form action="http://3.131.82.23:80/FirstServlet/UserHome" method="post">
+        <div class="pass-containterborder-5px-onahau"></div>
+        <div class="email-containerborder-5px-onahau"></div>
+        <input class="email" name="email" placeholder="email" type="email" required/>
+        <input
+          class="password"
+          name="password"
+          placeholder="password"
+          type="password"
+        />
+        <button type="submit" class="submit">submit</button>
+    </form>
+    <a href="http://3.131.82.23:80/FirstServlet/SighnUp">Sign Up</a>
+
+    </div>
+  </div>
+</div>
+        <!-- the content goes here -->
+    </body>
+</html>
